@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/files/(.+)$ fileHandler.php?stuff=$1 [QSA]

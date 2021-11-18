@@ -1,0 +1,102 @@
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Quicksand';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#555;
+	background: #ecf0f3;
+}
+
+#PageDeConnexion
+{
+	width: 350px;
+	height: 330px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 1vh 35px 1vh 35px;
+	border-radius: 25px;
+	background: #ecf0f3;
+	box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #ffffff;
+}
+
+#Titre
+{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 2.5%;
+
+}
+
+#Sous-titre
+{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 2.5%;
+}
+
+#ForgotPassword
+{
+	text-align: center;
+	font-size: 10px;
+	margin-top: 2.5%;
+	color: #303030;
+}
+
+#LinkForgotPassword
+{
+	text-decoration: none;
+}
+
+#fields
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.5%;
+}
+
+#fields input
+{
+	font-family: 'Quicksand';
+	border: none;
+	outline:none;
+	background: none;
+	font-size: 17.5px;
+	padding: 20px 0px 20px 10px;
+}
+
+#Username, #Password
+{
+	margin-bottom: 20px;
+	border-radius: 25px;
+	box-shadow: inset 10px 10px 10px #cbced1,inset -8px -8px 8px #ffffff;
+}
+
+#signin-button
+{
+	outline: none;
+	text-decoration: none;
+	border:none;
+	cursor: pointer;
+	width:100%;
+	height: 60px;
+	border-radius: 25px;
+	font-size: 18px;
+	font-family: 'Quicksand';
+	color:#fff;
+	text-align: center;
+	background: #30330;
+	transition: 0.25s;
+	margin-bottom: 1.5%;
+}
